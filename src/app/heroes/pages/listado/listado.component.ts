@@ -5,17 +5,7 @@ import { HeroesService } from "../../services/heroes.service";
 @Component({
   selector: "app-listado",
   templateUrl: "./listado.component.html",
-  styles: [`
-  .example-card {
-  max-width: 400px;
-}
-
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
-}
-
-  `],
+  styles: [],
 })
 export class ListadoComponent implements OnInit {
   heroes: Heroe[] = [];
